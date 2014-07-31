@@ -1,0 +1,17 @@
+{
+	"url":"http://127.0.0.1/HoneyServer/",
+	"honeypot": {
+		"kippo": {
+			"host":"localhost",
+			"user":"",
+			"pass":"",
+			"name":"kippo"
+		},
+		"dionaea": {
+			"path":""
+		},
+		"p0f": {
+			"path":""
+		}
+	}
+}
