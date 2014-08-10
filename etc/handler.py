@@ -12,7 +12,7 @@ def readlog(config):
 	for line in log:
 		lines.append(line)
 	for strip in lines:
-		m = re.search('(?<=srv=)[a-zA-Z0-9_ .:]+', strip)
+		m = re.search('(?<=cli=)[a-zA-Z0-9_ .:]+', strip)
 		n = re.search('(?<=os=)[a-zA-Z0-9_ .:]+', strip)
 		ip = m.group(0)
 		if n:

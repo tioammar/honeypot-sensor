@@ -3,15 +3,15 @@
 	"honeypot": {
 		"kippo": {
 			"host":"localhost",
-			"user":"",
+			"user":"root",
 			"pass":"",
 			"name":"kippo"
 		},
 		"dionaea": {
-			"path":""
+			"path":"../Honeypot/dionaea/var/dionaea/logsql.sqlite"
 		},
 		"p0f": {
-			"path":""
+			"path":"../Honeypot/p0f.log"
 		}
 	}
 }

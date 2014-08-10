@@ -55,3 +55,4 @@ def delete(config, query):
 def transfer(medium, json, url):
 	data = {"medium": medium, "data":base64.b64encode(json)}
 	r = requests.post(url + 'index.php', data=data)
+	print medium
