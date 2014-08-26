@@ -38,8 +38,11 @@ def test_config():
 	try:
 		r = requests.get(config['url'] + "token")
 		tok = r.json()
-		config['token'] = tok['token']
-		pesan("PESAN", "TOKEN: "+config['token'])
+		if config['token'] == tok['token']:
+			pesan("PESAN", "TOKEN: "+config['token'])
+		else:
+			pesan("GAGAL", "Token Salah!")
+			sys.exit(0)
 	except TypeError:
 		pesan("GAGAL", "URL Salah!")
 		sys.exit(0)

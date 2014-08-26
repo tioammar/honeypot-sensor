@@ -23,4 +23,5 @@ def sensor():
 			plugin.migrate(config)
 
 # Jalankan sensor
-loop(3, sensor)
+#loop(3, sensor)
+sensor()
