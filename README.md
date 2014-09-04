@@ -1,4 +1,4 @@
-HoneySensor
+Sensor
 ===========
 
 Skripsi!
