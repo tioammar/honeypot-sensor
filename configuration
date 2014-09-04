@@ -1,5 +1,5 @@
 {
-	"url":"http://127.0.0.1/HoneyServer/",
+	"url":"http://127.0.0.1/server/",
 	"token":"honeypotdatabase",
 	"honeypot": {
 		"kippo": {
@@ -9,10 +9,10 @@
 			"name":"kippo"
 		},
 		"dionaea": {
-			"path":"../Honeypot/dionaea/var/dionaea/logsql.sqlite"
+			"path":"../dionaea/var/dionaea/logsql.sqlite"
 		},
 		"p0f": {
-			"path":"../Honeypot/p0f.log"
+			"path":"../p0f.log"
 		}
 	}
 }
